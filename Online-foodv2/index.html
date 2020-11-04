@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./index.css">
+ <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,900;1,400;1,800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/twig.js/1.15.0/twig.min.js"></script>
+</head>
+<body>
+
+ <header>
+  <div class="navbar">
+    <div></div>
+   <ul class="nav-options">
+    <li>Jak to działa</li>
+    <a href="contact.html">
+     <li style="color: white;">Kontakt</li>
+    </a>
+    <li>O nas</li>
+   </ul>
+  </div>
+  <div class="banner-text"><a href="">
+    <h1>Zamów jedzenie już teraz</h1>
+   </a></div>
+  <div class="adres-input">
+   <input type="text" placeholder="Podaj adres dostawy">
+   <Button class="search-btn">Szukaj</Button>
+  </div>
+ </header>
+
+ <section class="info">
+  <div class="square-info">
+    <h1>Nazwa restauracji</h1>
+    <h2>Fast food</h2>
+    <h2>+48 123456789</h2>
+    <p>Drużbickiego 2, Poznań</p>
+    <div class="info-adres-img" style="background-image: url(./img/adres_img.png);"></div>
+  </div>
+  <div class="about-info">
+    <h2> <strong>Otwarte: </strong>  Pn-So 12:00-23 Nd 11:00-21:00 </h2>
+    <h2><strong>Płatności:</strong> Viza, Master Card</h2>
+    <h2><strong>Parking:</strong> Na miejscu</h2>
+    <h2><strong>Kuchnia:</strong> Fast food</h2>
+    <h2><strong>O nas:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. In praesentium, eveniet suscipit at dolore esse?</h2>
+  </div>
+ </section>
+ 
+ <section>
+  <div class="languages">
+   <div class="single-language polish-language">Menu(Pl)</div>
+   <div class="single-language english-language">Menu(Eng)</div>
+  </div>
+ </section>
+
+ <section>
+  <div class="categories">
+  </div>
+  <script type="text/twig" id="navCategories">
+  {% for category in uniqueCategories %}
+  <a href="#{{EngCategory[loop.index0]}}">
+    <div class="single-category"><div class="category-img" style="background-image: url(./img/category_{{EngCategory[loop.index0]}}.jpg);"></div><div class="category-title">{{category}}</div></div></a>
+  {% endfor %}
+  </script>
+ </section>
+
+ <section>
+  <div id="menu">
+    <div class="more-info-black"></div>
+
+    <div class="menu-single-category" id="burgers">
+      <h1>burgery</h1>
+      <div class="menu-single-category-dishes">
+      </div>
+    </div>
+
+    <div class="menu-single-category" id="salad">
+      <h1>Sałatki</h1>
+      <div class="menu-single-category-dishes">
+      </div>
+    </div>
+
+    <div class="menu-single-category" id="pasta">
+      <h1>makaron</h1>
+      <div class="menu-single-category-dishes">
+      </div>
+    </div>
+
+    <div class="menu-single-category" id="addons">
+      <h1>dodatki</h1>
+      <div class="menu-single-category-dishes">
+      </div>
+    </div>
+
+    <div class="menu-single-category" id="drinks">
+      <h1>napoje</h1>
+      <div class="menu-single-category-dishes">
+      </div>
+    </div>
+   </div>
+
+  <script type="text/twig" id="dishesPL">
+    {% for item in data %}
+        <div class="menu-single-item" id="{{item.id}}">
+      <div class="menu-single-item-title">
+      <h1>{{item.name_pl}}</h1>
+      <h2>{{item.description_pl}}</h2>
+      <p>{{item.price}} zł</p>
+      </div>
+      <div class="menu-single-item-img" style="background-image: url({{item.image}});"></div>
+    </div>
+        {% endfor %}
+  </script>
+
+  <script type="text/twig" id="dishesENG">
+        {% for item in data %}
+            <div class="menu-single-item" id="{{item.id}}">
+          <div class="menu-single-item-title">
+          <h1>{{item.name_eng}}</h1>
+          <h2>{{item.description_eng}}</h2>
+          <p>{{item.price}} zł</p>
+          </div>
+          <div class="menu-single-item-img" style="background-image: url({{item.image}});"></div>
+        </div>
+            {% endfor %}
+    </script>
+ </section>
+
+ <footer>
+  <ul class="footer-options">
+   <li>Ofery pracy</li>
+   <li>Regulamin</li>
+   <li>Polityka prywatności</li>
+   <li>Polityka cookies</li>
+  </ul>
+  <div class="social-icons">
+   <i class="fa fa-facebook social-icon" style="font-size: 2rem;"></i>
+   <i class="fa fa-twitter social-icon" style="font-size: 2rem;"></i>
+   <i class="fa fa-youtube social-icon" style="font-size: 2rem;"></i>
+  </div>
+  <h4>&copy; 2020 jedzenie.pl</h4>
+ </footer>
+ 
+ <script type="module" src="./index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+ [
+ {
+  "id": "1",
+  "name_pl": "Burger Klasyczny",
+  "name_eng": "Burger Classic",
+  "category_pl": "burgery",
+  "category_eng": "burgers",
+  "price": "20",
+  "description_pl" : "200 g. wołowiny, pomidor, cebula czerwona, sałata, ogórek, cebulka prażona, sos",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://img.grouponcdn.com/deal/vw3eMBVJkkaJf3Agx4EHAd/servlet-5-960x576/v1/c700x420.jpg"
+ },
+ {
+  "id": "2",
+  "name_pl": "Burger Wołowy",
+  "name_eng": "Burger beef",
+  "category_pl": "burgery",
+  "category_eng": "burgers",
+  "price": "20",
+  "description_pl" : "200 g. wołowiny, pomidor, cebula, ogórek, cebulka prażona, sos",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://kobietamag.pl/wp-content/uploads/2014/04/domowy-burger.jpg"
+ },
+ {
+  "id": "3",
+  "name_pl": "Burger wegetariański",
+  "name_eng": "Burger Vege",
+  "category_pl": "burgery",
+  "category_eng": "burgers",
+  "price": "20",
+  "description_pl" : "classic (z burgerem z cieciorki i cukinii zamiast wołowiny)",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/burger_z_halloumi_00_0.jpg"
+ },
+ {
+  "id": "4",
+  "name_pl": "Burger cheese",
+  "name_eng": "Burger cheese",
+  "category_pl": "burgery",
+  "category_eng": "burgers",
+  "price": "25",
+  "description_pl" : "200 g. wołowiny, pomidor, cebula czerwona, sałata, ogórek, cebulka prażona, sos, cheddar",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://tasteandsee.com/wp-content/uploads/2017/06/Easy-Pimento-Cheese-and-Bacon-Burger-EL-burger-great.jpg"
+ },
+ {
+  "id": "5",
+  "name_pl": "Sałatka chicken",
+  "name_eng": "Chicken Salad",
+  "category_pl": "sałatka",
+  "category_eng": "salad",
+  "price": "18",
+  "description_pl" : "z grillowanym kurczakiem, mieszanką sałat, pomidorkami cherry, serem feta i sosem vinegret",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://healthyfitnessmeals.com/wp-content/uploads/2020/05/instagram-In-Stream_Square___Greek-chicken-salad-4.jpg"
+ },
+ {
+  "id": "6",
+  "name_pl": "Sałatka z brokułami",
+  "name_eng": "Broccoly salad",
+  "category_pl": "sałatka",
+  "category_eng": "salad",
+  "price": "18",
+  "description_pl" : "z grillowanym kurczakiem, mieszanką sałat, pomidorkami cherry, serem feta i sosem vinegret",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/salatka_jajko_brokuly_kukurydza_01.jpg"
+ },
+ {
+  "id": "7",
+  "name_pl": "Sałatka ziemniaczana",
+  "name_eng": "Potato salad",
+  "category_pl": "sałatka",
+  "category_eng": "salad",
+  "price": "18",
+  "description_pl" : "z grillowanym kurczakiem, mieszanką sałat, pomidorkami cherry, serem feta i sosem vinegret",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://www.mojegotowanie.pl/media/cache/default_view/uploads/media/default/0001/73/edaccd655d081104126a1fecc7cc07a87596a493.jpeg"
+ },
+ {
+  "id": "8",
+  "name_pl": "Sałatka fit",
+  "name_eng": "Fit Salad",
+  "category_pl": "sałatka",
+  "category_eng": "salad",
+  "price": "20",
+  "description_pl" : "grillowane krewetki, mieszanka sałat, rukola, awokado, pomidorki cherry, oliwa z oliwek",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://foodsbyann.com/data/include/img/news/1582548679.jpg"
+ },
+ {
+  "id": "9",
+  "name_pl": "Makaron pepperoni",
+   "name_eng": "Pasta pepperoni",
+  "category_pl": "makaron",
+  "category_eng": "pasta",
+  "price": "21",
+  "description_pl" : "salami pepperoni, sos pomidorowy, papryczki jalapeno, cebula, parmezan, pomidorki cherry",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Pepperoni-Pasta_exps13642_FFC1871840D09_11_4bC_RMS.jpg"
+ },
+ {
+  "id": "10",
+  "name_pl": "Makaron chorizo",
+   "name_eng": "Pasta chorizo",
+  "category_pl": "makaron",
+  "category_eng": "pasta",
+  "price": "21",
+  "description_pl" : "salami pepperoni, sos pomidorowy, papryczki jalapeno, cebula, parmezan, pomidorki cherry",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://www.alemeksyk.eu/media/k2/items/cache/63955aa9869cf7707ada1662dbfb31e2_XL.jpg"
+ },
+ {
+  "id": "11",
+  "name_pl": "Makaron bolognese",
+   "name_eng": "Pasta bolognese",
+  "category_pl": "makaron",
+  "category_eng": "pasta",
+  "price": "22",
+  "description_pl" : "mięso mielone, sos pomidorowy, marchew, czosnek, cebula, parmezan, rukola",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://thecozycook.com/wp-content/uploads/2019/08/Bolognese-Sauce.jpg"
+ },
+ {
+  "id": "12",
+  "name_pl": "Makaron carbonara",
+   "name_eng": "Pasta carbonara",
+  "category_pl": "makaron",
+  "category_eng": "pasta",
+  "price": "22",
+  "description_pl" : "boczek, sos śmietanowy, pomidorki cherry, czosnek, natka pietruszki, parmezan, rukola",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://www.mojegotowanie.pl/uploads/media/recipe/0001/100/carbonara.jpeg"
+ },
+ {
+  "id": "13",
+  "name_pl": "Frytki",
+   "name_eng": "Fries",
+  "category_pl": "dodatki",
+  "category_eng": "addons",
+  "price": "8",
+  "description_pl" : "200g frytek + sos",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://wszystkoojedzeniu.pl/site/assets/files/88291/frytki.650x0.jpg"
+ },
+ {
+  "id": "14",
+  "name_pl": "Sos pomidorowy",
+   "name_eng": "tomato sauce",
+  "category_pl": "dodatki",
+  "category_eng": "addons",
+  "price": "8",
+  "description_pl" : "Sos pomidorowy",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://s3.przepisy.pl/przepisy3ii/img/variants/1280x0/sos-pomidorowy3171881577098222000.jpg"
+ },
+ {
+  "id": "15",
+  "name_pl": "Sos czosnkowy",
+   "name_eng": "Garlic sauce",
+  "category_pl": "dodatki",
+  "category_eng": "addons",
+  "price": "8",
+  "description_pl" : "Sos czosnkowy",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://www.strudelandschnitzel.com/wp-content/uploads/2019/06/Chive-and-garlic-sauce.jpg"
+ },
+ {
+  "id": "16",
+  "name_pl": "Cola",
+   "name_eng": "Cola",
+  "category_pl": "napoje",
+  "category_eng": "drinks",
+  "price": "6",
+  "description_pl" : "Napój gazowany Cola",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://image.ceneostatic.pl/data/products/49752493/i-riedel-szklanki-coca-cola-o-riedel-rd041421.jpg"
+ },
+ {
+  "id": "17",
+  "name_pl": "Fanta",
+   "name_eng": "Fanta",
+  "category_pl": "napoje",
+  "category_eng": "drinks",
+  "price": "6",
+  "description_pl" : "Napój gazowany Fanta",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://st2.depositphotos.com/1434090/12327/i/950/depositphotos_123273230-stock-photo-glass-of-fanta-on-white.jpg"
+ },
+{
+  "id": "18",
+  "name_pl": "Nestea",
+   "name_eng": "Nestea",
+  "category_pl": "napoje",
+  "category_eng": "drinks",
+  "price": "5",
+  "description_pl" : "Napój Nestea",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://www.pngkit.com/png/detail/45-453416_nestea-iced-tea-has-a-refreshing-balanced-taste.png"
+ },
+ {
+  "id": "19",
+  "name_pl": "Woda",
+   "name_eng": "Water",
+  "category_pl": "napoje",
+  "category_eng": "drinks",
+  "price": "5",
+  "description_pl" : "Water",
+  "description_eng" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et.",
+  "image": "https://www.speedtest.pl/wiadomosci/wp-content/uploads/2016/06/woda.jpg"
+ }
+]
